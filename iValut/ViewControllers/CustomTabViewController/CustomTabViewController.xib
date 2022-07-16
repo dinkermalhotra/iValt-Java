@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTabViewController" customModule="iValt" customModuleProvider="target">
+            <connections>
+                <outlet property="tabView" destination="wck-7a-18n" id="XXm-3P-Vnu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wck-7a-18n">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VU1-le-s0E">
+                            <rect key="frame" x="0.0" y="0.0" width="119.5" height="49"/>
+                            <state key="normal" image="ic_home"/>
+                            <connections>
+                                <action selector="homeClicked:" destination="-1" eventType="touchUpInside" id="yJE-9B-L0p"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hny-95-ddy">
+                            <rect key="frame" x="127.5" y="0.0" width="120" height="49"/>
+                            <state key="normal" image="ic_settings"/>
+                            <connections>
+                                <action selector="selfTestClicked:" destination="-1" eventType="touchUpInside" id="i6c-Pd-J30"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcx-6Z-h7A">
+                            <rect key="frame" x="255.5" y="0.0" width="119.5" height="49"/>
+                            <state key="normal" image="ic_user"/>
+                            <connections>
+                                <action selector="profileClicked:" destination="-1" eventType="touchUpInside" id="5Je-BJ-0HO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="dcx-6Z-h7A" secondAttribute="bottom" id="9b2-Nd-qIA"/>
+                        <constraint firstItem="VU1-le-s0E" firstAttribute="leading" secondItem="wck-7a-18n" secondAttribute="leading" id="EW9-l0-tS9"/>
+                        <constraint firstItem="dcx-6Z-h7A" firstAttribute="width" secondItem="VU1-le-s0E" secondAttribute="width" id="Gpo-3j-k5i"/>
+                        <constraint firstItem="VU1-le-s0E" firstAttribute="top" secondItem="wck-7a-18n" secondAttribute="top" id="H6c-bZ-8o3"/>
+                        <constraint firstItem="dcx-6Z-h7A" firstAttribute="top" secondItem="wck-7a-18n" secondAttribute="top" id="O32-k5-bfq"/>
+                        <constraint firstAttribute="height" constant="49" id="QnU-e7-4dn"/>
+                        <constraint firstItem="hny-95-ddy" firstAttribute="leading" secondItem="VU1-le-s0E" secondAttribute="trailing" constant="8" id="ZEW-cs-EyU"/>
+                        <constraint firstItem="hny-95-ddy" firstAttribute="width" secondItem="VU1-le-s0E" secondAttribute="width" id="ePP-Sw-WRH"/>
+                        <constraint firstAttribute="bottom" secondItem="VU1-le-s0E" secondAttribute="bottom" id="hc8-vh-n4A"/>
+                        <constraint firstAttribute="trailing" secondItem="dcx-6Z-h7A" secondAttribute="trailing" id="j8F-Ci-493"/>
+                        <constraint firstItem="dcx-6Z-h7A" firstAttribute="leading" secondItem="hny-95-ddy" secondAttribute="trailing" constant="8" id="jWH-CW-3Lu"/>
+                        <constraint firstAttribute="bottom" secondItem="hny-95-ddy" secondAttribute="bottom" id="ofG-PU-bC2"/>
+                        <constraint firstItem="hny-95-ddy" firstAttribute="top" secondItem="wck-7a-18n" secondAttribute="top" id="zt6-Ny-CGm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="wck-7a-18n" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="B4Y-rx-msy"/>
+                <constraint firstItem="wck-7a-18n" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="IYb-u5-KBb"/>
+                <constraint firstItem="wck-7a-18n" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Rqh-W0-XLh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="110"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_home" width="25" height="24.5"/>
+        <image name="ic_settings" width="25" height="23.5"/>
+        <image name="ic_user" width="19" height="25"/>
+    </resources>
+</document>

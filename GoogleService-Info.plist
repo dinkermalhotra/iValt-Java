@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1079886346512-8egqlnmhi4figjqp6r18i8ugb4pddllr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1079886346512-8egqlnmhi4figjqp6r18i8ugb4pddllr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBcedxJnVW5eavxkenI_zD-x9Um5ZAW0lU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1079886346512</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iValt.iOS</string>
+	<key>PROJECT_ID</key>
+	<string>ivalt-16a3a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ivalt-16a3a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<false/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1079886346512:ios:2c4a36fb82d9ac03660d95</string>
+	<key>DATABASE_URL</key>
+	<string>https://ivalt-16a3a.firebaseio.com</string>
+</dict>
+</plist>
